@@ -105,6 +105,7 @@ El botón no reaccionaba porque no estaba asignando correctamente el cambio de e
 
 **Solución:**
 ```javascript
+
 estado = "animacion";# ENCARGO-SOLEMNE-II-Pensamiento-Computacional
 # Toby's Path main menu
 
