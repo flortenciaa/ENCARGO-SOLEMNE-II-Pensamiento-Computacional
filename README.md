@@ -10,9 +10,9 @@ Florencia Guzmán
 
 Este proyecto consiste en un sistema visual dinámico e interactivo desarrollado en p5.js, que simula el menú principal de un videojuego.
 
-En pantalla se observa un título y una serie de botones. El botón principal (Play) reacciona al pasar el cursor sobre él (hover), cambiando su color. Al hacer click, se activa una animación donde un círculo crece hasta cubrir la pantalla, generando una transición hacia una nueva escena.
+En la pantalla principal se observa un título y una serie de botones, donde el botón principal (Play) reacciona al pasar el cursor por encima (hover), cambiando su color y al hacer click, se activa una animación donde un círculo crece hasta cubrir la pantalla, generando la transición hacia una nueva escena.
 
-En la pantalla final se muestra un sistema generativo simple compuesto por múltiples círculos que cambian constantemente en posición, tamaño y color.
+En la pantalla final se muestra un **sistema generativo simple** compuesto por múltiples círculos que cambian constantemente en posición, tamaño y color.
 
 ---
 
