@@ -2,7 +2,7 @@
 # Toby's Path
 
 ## Autor
-Florencia Guzmán
+**Florencia Guzmán**
 
 ---
 
@@ -12,13 +12,13 @@ Este proyecto consiste en un sistema visual dinámico e interactivo desarrollado
 
 En la pantalla principal se observa un título y una serie de botones, donde el botón principal (Play) reacciona al pasar el cursor por encima (hover), cambiando su color y al hacer click, se activa una animación donde un círculo crece hasta cubrir la pantalla, generando la transición hacia una nueva escena.
 
-En la pantalla final se muestra un **sistema generativo simple** compuesto por múltiples círculos que cambian constantemente en posición, tamaño y color.
+En la pantalla final se muestra un **sistema generativo simple** compuesto por múltiples círculos que cambian constantemente y de manera random en posición y tamaño.
 
 ---
 
 ## Descripción conceptual
 
-El proyecto se relaciona con el diseño de interfaces y el diseño generativo. No busca replicar una estética específica, sino traducir la lógica de interacción de un menú de videojuego a un sistema computacional dinámico.
+El proyecto busca relacionarse con el diseño de interfaces y el diseño generativo. No copia una estética específica, sino muestra la lógica de interacción de un menú de videojuego y un sistema computacional dinámico.
 
 Se trabajan principios como:
 - Interactividad
@@ -40,17 +40,17 @@ El sistema funciona mediante tres estados principales:
 
 ## Sistema (Input / Proceso / Output)
 
+
 ### Input
 - Movimiento del mouse  
 - Click del mouse  
-- Presión de tecla (espacio)  
 
 ### Proceso
 - Detección de hover mediante condicionales  
 - Cambio de estado según interacción del usuario  
 - Uso de loop (for) para generar múltiples elementos  
 - Uso de random() para variar posiciones  
-- Uso de map() para modificar el tamaño según el mouse  
+- Uso de map() para modificar el tamaño según la posición del mouse  
 
 ### Output
 - Botones interactivos que reaccionan al cursor  
@@ -70,6 +70,26 @@ El usuario puede interactuar de las siguientes formas:
 
 ---
 
+## Problemas durante el proceso y soluciones
+
+Durante el desarrollo del proyecto tuve varios errores que tuve que ir resolviendo:
+
+### 1. Funciones mal ubicadas
+Al principio definí funciones como `titulo()` dentro de `draw()`, lo que provocaba errores y comportamientos inesperados.
+
+**Solución:**  
+Saqué todas las funciones fuera de `draw()` para que funcionaran correctamente.
+
+---
+
+### 2. Error en el click del botón Play
+El botón no reaccionaba al hacer click porque olvidé asignar el cambio de estado correctamente.
+
+**Problema:**
+```javascript
+estado
+---
+
 ## Diagrama de flujo
 
 ![Diagrama](diagrama.png)
@@ -78,7 +98,7 @@ El usuario puede interactuar de las siguientes formas:
 
 ## Link al sketch en p5.js
 
-(Pega aquí tu link de p5.js)
+(https://editor.p5js.org/florencia.guzman2/sketches/i05NTYkMi)
 
 ---
 
