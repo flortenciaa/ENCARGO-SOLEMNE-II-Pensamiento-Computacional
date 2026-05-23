@@ -85,10 +85,6 @@ Saqué todas las funciones fuera de `draw()` para que funcionaran correctamente.
 ### 2. Error en el click del botón Play
 El botón no reaccionaba al hacer click porque olvidé asignar el cambio de estado correctamente.
 
-**Problema:**
-```javascript
-estado
----
 
 
 ## Link al sketch en p5.js
