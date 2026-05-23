@@ -15,6 +15,7 @@ En la pantalla principal se observa un título y una serie de botones, donde el 
 En la pantalla final se muestra un **sistema generativo simple** compuesto por múltiples círculos que cambian constantemente y de manera random en posición y tamaño.
 
 **referentes**
+
 ![Error funciones](referente.jfif)
 ---
 
