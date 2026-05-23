@@ -77,13 +77,15 @@ Durante el desarrollo del proyecto tuve varios errores que tuve que ir resolvien
 ### 1. Funciones mal ubicadas
 Al principio definí funciones como `titulo()` dentro de `draw()`, lo que provocaba errores y comportamientos inesperados.
 ![Error funciones](error1.png)
+
 **Solución:**  
 Saqué todas las funciones fuera de `draw()` para que funcionaran correctamente.
-
+![Error funciones](error2.png)
 ---
 
 ### 2. Error en el click del botón Play
 El botón no reaccionaba al hacer click porque olvidé asignar el cambio de estado correctamente.
+![Error funciones](error3.png)
 
 
 
