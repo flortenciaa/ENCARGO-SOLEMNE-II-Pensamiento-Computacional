@@ -13,8 +13,9 @@ Este proyecto consiste en un sistema visual dinámico e interactivo desarrollado
 En la pantalla principal se observa un título y una serie de botones, donde el botón principal (Play) reacciona al pasar el cursor por encima (hover), cambiando su color y al hacer click, se activa una animación donde un círculo crece hasta cubrir la pantalla, generando la transición hacia una nueva escena.
 
 En la pantalla final se muestra un **sistema generativo simple** compuesto por múltiples círculos que cambian constantemente y de manera random en posición y tamaño.
+
 **referentes**
-![Error funciones](referente.png)
+![Error funciones](referente.jfif)
 ---
 
 ## Descripción conceptual
